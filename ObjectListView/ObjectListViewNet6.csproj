@@ -7,25 +7,34 @@
     <ApplicationIcon />
     <StartupObject />
 
-    <PackageId>ObjectListView.Repack.Core5</PackageId>
+    <PackageId>ObjectListView.Repack.Net6</PackageId>
     <Authors>FizzCode Ltd.</Authors>
     <PackageLicenseUrl>https://github.com/FizzcodeSoftware/ObjectListViewRepack/blob/master/cs/trunk/COPYING</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Product>ObjectListView (repack for .NET 5.x)</Product>
+    <Product>ObjectListView (repack for .NET 6)</Product>
     <Description>ObjectListView is a .NET ListView wired on caffeine, guarana and steroids. More calmly, it is a C# wrapper around a .NET ListView, which makes the ListView much easier to use and teaches it lots of neat new tricks.</Description>
     <Copyright>Copyright 2006-2016 Bright Ideas Software</Copyright>
     <RepositoryUrl>https://github.com/FizzcodeSoftware/ObjectListViewRepack</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/FizzcodeSoftware/ObjectListViewRepack</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/g4m3r0/ObjectListView2022Net6</PackageProjectUrl>
     <PackageVersion>2.9.2</PackageVersion>
     <Version>2.9.2</Version>
     <FileVersion>2.9.2</FileVersion>
     <AssemblyVersion>2.9.2</AssemblyVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>ObjectListView for .NET 6</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
