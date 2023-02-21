@@ -14,7 +14,7 @@
     <Product>ObjectListView (repack for .NET 6)</Product>
     <Description>ObjectListView is a .NET ListView wired on caffeine, guarana and steroids. More calmly, it is a C# wrapper around a .NET ListView, which makes the ListView much easier to use and teaches it lots of neat new tricks.</Description>
     <Copyright>Copyright 2006-2016 Bright Ideas Software</Copyright>
-    <RepositoryUrl>https://github.com/FizzcodeSoftware/ObjectListViewRepack</RepositoryUrl>
+    <RepositoryUrl>https://github.com/g4m3r0/ObjectListView2022Net6</RepositoryUrl>
     <PackageProjectUrl>https://github.com/g4m3r0/ObjectListView2022Net6</PackageProjectUrl>
     <PackageVersion>2.9.2</PackageVersion>
     <Version>2.9.2</Version>
